@@ -1,56 +1,111 @@
-# Clothing E-commerce Project
+👕 Clothing E-commerce Project
 
-A full-stack Clothing E-commerce web application built with **React (Vite)** for the frontend and **Node.js + Express** for the backend. Users can browse products, filter by category and price, add items to cart, and place orders.
+A complete full-stack Clothing E-Commerce Web Application, built using React (Vite) on the frontend and Node.js + Express on the backend.
+This project provides a smooth shopping experience with authentication, product browsing, filtering, cart management, and order handling.
 
----
+✨ Features
+🛍️ Product & Catalog
 
-## Features
+Browse all products with images, sizes, pricing
 
-- Product listing with categories and price filters
-- Product details page
-- Shopping cart with add/remove/update quantity
-- User authentication (register, login, logout)
-- Orders and order history
-- Responsive UI for mobile and desktop
+Filter by category, size, and price range
 
----
+Search products easily
 
-## Tech Stack
+View detailed product information
 
-- **Frontend:** React + Vite, Tailwind CSS
-- **Backend:** Node.js + Express, MongoDB
-- **Authentication:** JWT-based and Cookie
-- **Notifications:** react-hot-toast
-- **Routing:** react-router-dom
-- **HTTP Requests:** axios
+🛒 Cart Management
 
----
+Add items with selected size
 
-## Project Structure
+Update quantity or remove items
 
+Cart persists even after page reload
+
+Cart stored in localStorage for guests and database for logged-in users
+
+🔐 User Authentication
+
+Register, Login, Logout
+
+JWT-based authentication with cookies
+
+Protected routes (cart, orders)
+
+🧾 Orders
+
+Place an order from cart
+
+Order saved in database
+
+View past order history
+
+📱 Fully Responsive UI
+
+Clean modern layout using Tailwind CSS
+
+Mobile-friendly shopping experience
+
+🧰 Tech Stack
+Frontend
+
+React + Vite
+
+Tailwind CSS
+
+react-router-dom
+
+axios
+
+react-hot-toast
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+JWT + Cookies
+
+Bcrypt for password hashing
+
+CORS enabled
+
+dotenv for env configuration
+
+📂 Project Structure
 clothing-ecommerce-project/
 │
-├─ frontend/ # React frontend (Vite)
-├─ backend/ # Node.js + Express backend
-└─ README.md 
+├── frontend/       # React + Vite frontend
+└── backend/        # Node.js + Express backend
+└── README.md
 
----
+🔧 Prerequisites
 
-## Prerequisites
+Make sure these are installed:
 
-- Node.js >= 18
-- npm or yarn
-- MongoDB (if using MongoDB for backend)
+Node.js (v18 or above)
 
----
+npm or yarn
 
-## Setup Instructions
-# Backend Setup 
-- cd backend
-- npm install
-- nodemon server
+MongoDB (Local or cloud MongoDB Atlas)
 
-# Frontend Setup
-- cd frontend
-- npm install 
-- npm run dev
+🚀 Setup Instructions
+1️⃣ Backend Setup
+cd backend
+npm install
+npm run dev     // or nodemon server.js
+
+
+Your backend will run on:
+
+http://localhost:5000
+
+2️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+http://localhost:5173
